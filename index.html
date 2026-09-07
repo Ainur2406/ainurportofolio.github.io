@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Pribadi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <h1 class="logo">Portofolio Saya</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#keahlian">Keahlian</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="tagline">PERSONAL PORTFOLIO</p>
+        <h2>Halo, saya <span>Ainurrohman Aditiya Nugroho</span></h2>
+        <p>
+          Saya seorang web developer pemula yang tertarik membuat website modern,
+          responsif, dan mudah digunakan.
+        </p>
+        <div class="hero-buttons">
+          <a href="#proyek" class="btn primary">Lihat Proyek</a>
+          <a href="#kontak" class="btn secondary">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="hero-image-card">
+        <img src="assets/2.jpg" alt="Foto Profil" class="profile-image"  />
+        <h3>Ainurrohman Aditiya Nugroho</h3>
+        <p>Web Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="profil" class="section">
+    <div class="container">
+      <h2 class="section-title">Profil</h2>
+      <p class="section-text">
+        Saya adalah mahasiswa teknik informatika UNTAG Surabaya seorang web developer 
+        yang sedang belajar dan mengembangkan kemampuan
+        dalam membangun website yang menarik, sederhana, dan fungsional. Saya senang
+        mempelajari teknologi baru dan membuat tampilan antarmuka yang nyaman bagi pengguna.
+      </p>
+    </div>
+  </section>
+
+  <section id="keahlian" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Keahlian</h2>
+      <div class="skills-grid">
+        <a href="html.html" class="card">HTML</a>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Responsive Design</div>
+        <div class="card">UI Dasar</div>
+        <div class="card">Git Dasar</div>
+        <div class="card">Flutter Mobile App</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyek" class="section">
+    <div class="container">
+      <h2 class="section-title">Proyek</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Website Company Profile</h3>
+          <p>Website untuk memperkenalkan profil perusahaan dengan desain modern dan rapi.</p>
+        </div>
+        <div class="project-card">
+          <h3>Landing Page Produk</h3>
+          <p>Halaman promosi produk yang fokus pada tampilan menarik dan informasi jelas.</p>
+        </div>
+        <div class="project-card">
+          <h3>Desain UI Aplikasi</h3>
+          <p>Rancangan antarmuka aplikasi sederhana untuk kebutuhan tugas atau bisnis kecil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Kontak</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p><strong>Email:</strong> aditiyanugroho4321@email.com</p>
+          <p><strong>WhatsApp:</strong> 087853129558</p>
+          <p><strong>Instagram:</strong> @ainur_adit_1</p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <input type="text" id="name" placeholder="Nama" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea id="message" rows="5" placeholder="Pesan" required></textarea>
+          <button type="submit" class="btn primary">Kirim</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Portofolio Pribadi.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  <a
+  href="https://wa.me/6287853129558?text=Halo%20saya%20tertarik%20dengan%20portofolio%20anda"
+  class="floating-wa"
+  target="_blank"
+  aria-label="Chat WhatsApp"
+>
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
+</a>
+</body>
+</html>
+
