@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#e2e8f0"/>
+  <circle cx="300" cy="220" r="110" fill="#94a3b8"/>
+  <path d="M140 500c30-95 110-145 160-145s130 50 160 145" fill="#94a3b8"/>
+  <text x="300" y="565" font-family="Arial, Helvetica, sans-serif" font-size="28" text-anchor="middle" fill="#334155">
+    Tempat Foto Profil
+  </text>
+</svg>
